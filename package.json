@@ -1,0 +1,26 @@
+{
+  "name": "jeantheme",
+  "displayName": "JeanTheme",
+  "description": "CoffeJeanCode vscode theme",
+  "version": "0.0.1",
+  "author": "CoffeJeanCode",
+  "publisher": "CoffeJeanCode",
+  "repository": {
+    "url": "https://github.com/CoffeJeanCode/JeanTheme.git"
+  },
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "JeanTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/JeanTheme.json"
+      }
+    ]
+  }
+}
